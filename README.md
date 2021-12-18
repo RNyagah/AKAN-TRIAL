@@ -1,9 +1,4 @@
 ﻿# AKAN-TRIAL
- 
- 
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <link rel="stylesheet" href="../css/demo.css">
     <script src="../js/demodos.js" defer></script>
