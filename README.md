@@ -1,5 +1,5 @@
 ﻿# AKAN-TRIAL
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -20,7 +20,7 @@
 </head>
 
 
-</body>
+
    
         <form>
             <label>Birthday</label>
