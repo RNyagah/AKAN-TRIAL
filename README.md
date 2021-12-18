@@ -19,7 +19,7 @@
 
 </head>
 
-
+<body>
 
    
         <form>
@@ -40,4 +40,5 @@
 
     <p id="resultHere">Display answer here</p>
 
-
+    </body>
+    </html>
