@@ -10,11 +10,11 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
         wholeNumber = wholeNumber - 1;
     }
     
-    if (gender == 'Female') {
-        return { 'name': femaleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
+    if (gender == 'Male') {
+        return { 'name': maleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
     } else {
     
-        return { 'name': maleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
+        return { 'name': femaleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
     }
     
     }
@@ -34,7 +34,7 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
         const birthYear = birthYearBox.value;
         const birthGender = birthGenderBox.value;
     
-        const allGendersArray = ("Male", "Female")
+        const allGendersArray = ["Male", "Female"]
         if (allGendersArray.includes (birthGender)) {
       
         
